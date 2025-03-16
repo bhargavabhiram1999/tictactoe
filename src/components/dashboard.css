@@ -1,0 +1,23 @@
+/* Center the entire div */
+.center-div {
+    display: flex;
+    flex-direction: column; /* Arrange rows in a column */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    gap: 10px; /* Space between rows */
+  }
+  
+  /* Style each row to keep images in a row */
+  .row {
+    display: flex;
+    gap: 10px; /* Space between images */
+  }
+  
+  /* Make sure images are a reasonable size */
+  .icon-images {
+    width: 100px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+    cursor: pointer; /* Add pointer on hover */
+  }
+  
